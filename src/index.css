@@ -1,0 +1,42 @@
+/* Reset global styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.lead {
+  color: #AFB5BC;
+}
+
+.about-lead {
+  color: #AFB5BC;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* button color */
+.btn-purple {
+  --bs-btn-bg: #ED3EF7 !important;
+  --bs-btn-border-color: #ED3EF7 !important;
+  --bs-btn-color: white !important;
+  --bs-btn-hover-border-color: #d53be2 !important;
+  --bs-btn-hover-bg: #d53be2 !important;
+  --bs-btn-hover-color: white !important;
+}
+
+
+.btn-purple {
+  transition: transform 0.3s ease;
+  /* 添加平滑的过渡效果 */
+}
+
+
+.btn-purple:hover {
+  transform: scale(1.1);
+  /* 按钮放大 10% */
+}

@@ -1,0 +1,12 @@
+.project-img {
+    transition: transform 0.3s ease;
+  }
+  
+
+  .project-img:hover {
+    transform: scale(1.05); 
+  }
+  
+
+
+  

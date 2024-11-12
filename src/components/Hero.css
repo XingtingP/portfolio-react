@@ -1,0 +1,52 @@
+/* smile animation */
+.smily {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.eyes {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+}
+
+.left-eye {
+  left: 40px;
+  transition: 0.5s;
+}
+
+.right-eye {
+  right: 40px;
+  transition: 0.5s;
+}
+
+.smily:hover .eyes,
+.smily.animate .eyes {
+  transform: scale(1.3);
+}
+
+.lips {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid black;
+  border-radius: 40%;
+  transition: 0.5s;
+}
+
+.smily:hover .lips,
+.smily.animate .lips {
+  width: 120px;
+  border-radius: 50%;
+}
