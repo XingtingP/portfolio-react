@@ -32,11 +32,9 @@ body {
 
 .btn-purple {
   transition: transform 0.3s ease;
-  /* 添加平滑的过渡效果 */
 }
 
 
 .btn-purple:hover {
   transform: scale(1.1);
-  /* 按钮放大 10% */
 }
